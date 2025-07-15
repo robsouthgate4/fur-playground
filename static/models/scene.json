@@ -1,0 +1,288 @@
+{
+  "floor": {
+    "file_compressed": "floor.vertices.bolt",
+    "file_compressed_indices": "floor.indices.bolt",
+    "position": [
+      0.0,
+      47.14665222167969,
+      0.34044718742370605
+    ],
+    "rotation": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "scale": [
+      -79.31393432617188,
+      -79.31393432617188,
+      -79.31393432617188
+    ],
+    "textures": [],
+    "materialColors": {
+      "FloorMaterial": [
+        0.18468168855024492,
+        0.14760528296456643,
+        0.16645861603506085,
+        1.0
+      ]
+    },
+    "isInstanced": false,
+    "decode": {
+      "vertexCount": 16,
+      "indexCount": 24,
+      "stride": 48,
+      "hasUVs": true
+    }
+  },
+  "tree": {
+    "file_compressed": "tree.vertices.bolt",
+    "file_compressed_indices": "tree.indices.bolt",
+    "position": [
+      -0.5799560546875,
+      13.947159767150879,
+      0.36850836873054504
+    ],
+    "rotation": [
+      1.5707964897155762,
+      -0.0,
+      1.2598004341125488
+    ],
+    "scale": [
+      0.270744264125824,
+      0.270744264125824,
+      0.270744264125824
+    ],
+    "textures": [
+      "bark_color.png",
+      "bark_normal.png",
+      "bark_roughness.png"
+    ],
+    "materialColors": {
+      "bark": [
+        0.15823816316794537,
+        0.2264046246437741,
+        0.14486237928174384,
+        1.0
+      ]
+    },
+    "isInstanced": false,
+    "decode": {
+      "vertexCount": 41360,
+      "indexCount": 115362,
+      "stride": 48,
+      "hasUVs": true
+    }
+  },
+  "Pillars": {
+    "file_compressed": "Pillars.vertices.bolt",
+    "file_compressed_indices": "Pillars.indices.bolt",
+    "position": [
+      -51.16022491455078,
+      65.74337768554688,
+      28.31206703186035
+    ],
+    "rotation": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "scale": [
+      1.6759190559387207,
+      1.6759190559387207,
+      28.377519607543945
+    ],
+    "textures": [
+      "Pillars_Bake1_CyclesBake_COMBINED.jpg"
+    ],
+    "materialColors": {
+      "PillarMaterial": [
+        0.37245913010357756,
+        0.014502301991881072,
+        0.1388607719563697,
+        1.0
+      ]
+    },
+    "isInstanced": false,
+    "decode": {
+      "vertexCount": 288,
+      "indexCount": 432,
+      "stride": 48,
+      "hasUVs": true
+    }
+  },
+  "Plinth": {
+    "file_compressed": "Plinth.vertices.bolt",
+    "file_compressed_indices": "Plinth.indices.bolt",
+    "position": [
+      0.0,
+      14.151515007019043,
+      0.47738805413246155
+    ],
+    "rotation": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "scale": [
+      13.007887840270996,
+      13.007887840270996,
+      13.007887840270996
+    ],
+    "textures": [],
+    "materialColors": {
+      "Material.014": [
+        0.9274063081997129,
+        0.26114875510697033,
+        0.7065613487883156,
+        1.0
+      ]
+    },
+    "isInstanced": false,
+    "decode": {
+      "vertexCount": 24,
+      "indexCount": 36,
+      "stride": 48,
+      "hasUVs": true
+    }
+  },
+  "Light": {
+    "file_compressed": "Light.vertices.bolt",
+    "file_compressed_indices": "Light.indices.bolt",
+    "position": [
+      -23.46918296813965,
+      10.945698738098145,
+      13.87011432647705
+    ],
+    "rotation": [
+      -0.0,
+      1.570796251296997,
+      0.0
+    ],
+    "scale": [
+      5.112948894500732,
+      0.4222524166107178,
+      1.0
+    ],
+    "textures": [],
+    "materialColors": {
+      "LightMaterial": [
+        0.7996498158159233,
+        0.5932365680742967,
+        0.013484869215135475,
+        1.0
+      ]
+    },
+    "isInstanced": false,
+    "decode": {
+      "vertexCount": 4,
+      "indexCount": 6,
+      "stride": 48,
+      "hasUVs": true
+    }
+  },
+  "Light.001": {
+    "file_compressed": "Light.001.vertices.bolt",
+    "file_compressed_indices": "Light.001.indices.bolt",
+    "position": [
+      24.026384353637695,
+      10.945698738098145,
+      13.87011432647705
+    ],
+    "rotation": [
+      -0.0,
+      1.570796251296997,
+      0.0
+    ],
+    "scale": [
+      5.112948894500732,
+      0.4000000059604645,
+      1.0
+    ],
+    "textures": [],
+    "materialColors": {
+      "LightMaterial.001": [
+        0.49968752709846087,
+        0.689074186334012,
+        0.42663743676813015,
+        1.0
+      ]
+    },
+    "isInstanced": false,
+    "decode": {
+      "vertexCount": 4,
+      "indexCount": 6,
+      "stride": 48,
+      "hasUVs": true
+    }
+  },
+  "Light.002": {
+    "file_compressed": "Light.002.vertices.bolt",
+    "file_compressed_indices": "Light.002.indices.bolt",
+    "position": [
+      24.026384353637695,
+      38.23502731323242,
+      13.87011432647705
+    ],
+    "rotation": [
+      -0.0,
+      1.570796251296997,
+      0.0
+    ],
+    "scale": [
+      5.112948894500732,
+      0.4000000059604645,
+      1.0
+    ],
+    "textures": [],
+    "materialColors": {
+      "LightMaterial.002": [
+        0.45407291813913975,
+        0.933117720760407,
+        0.40478596694497027,
+        1.0
+      ]
+    },
+    "isInstanced": false,
+    "decode": {
+      "vertexCount": 4,
+      "indexCount": 6,
+      "stride": 48,
+      "hasUVs": true
+    }
+  },
+  "Light.003": {
+    "file_compressed": "Light.003.vertices.bolt",
+    "file_compressed_indices": "Light.003.indices.bolt",
+    "position": [
+      -23.46918296813965,
+      38.23502731323242,
+      13.87011432647705
+    ],
+    "rotation": [
+      -0.0,
+      1.570796251296997,
+      0.0
+    ],
+    "scale": [
+      5.112948894500732,
+      0.4222524166107178,
+      1.0
+    ],
+    "textures": [],
+    "materialColors": {
+      "LightMaterial.003": [
+        0.8862497336972566,
+        0.7316727778935167,
+        0.7946727032321019,
+        1.0
+      ]
+    },
+    "isInstanced": false,
+    "decode": {
+      "vertexCount": 4,
+      "indexCount": 6,
+      "stride": 48,
+      "hasUVs": true
+    }
+  }
+}

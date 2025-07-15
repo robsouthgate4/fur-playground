@@ -1,0 +1,27 @@
+/*
+Font: 		First Contact
+Style: 		Regular
+URL: 		https://youworkforthem.com/font/T23253/first-contact
+Foundry: 	SilverStag
+Foundry: 	https://youworkforthem.com/designer/1258/silverstag
+Copyright:	
+Version: 	17
+Created:	April 04, 2024
+License: 	https://www.youworkforthem.com/font-license 
+License: 	The WebFont(s) listed in this document must follow the YouWorkForThem
+			WebFont license rules. All other parties are strictly restricted 
+			from using the WebFonts(s) listed without a purchased license. 
+			All details above must always remain unaltered and visible in your CSS.
+*/
+
+@font-face {
+	font-family: 'FirstContact-Regular';
+	src: url('first-contact-regular.eot');
+	src: url('first-contact-regular.eot?#iefix') format('embedded-opentype'),
+             url('first-contact-regular.woff2') format('woff2'),
+	     url('first-contact-regular.woff') format('woff'),
+	     url('first-contact-regular.ttf') format('truetype'),
+	     url('first-contact-regular.svg#youworkforthem') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
