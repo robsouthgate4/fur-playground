@@ -19,6 +19,7 @@
 	"dependencies": {
 		"fflate": "^0.8.2",
 		"gl-matrix": "^3.4.3",
+		"bolt-gl": "^0.0.18",
 		"oimo": "^1.0.9",
 		"stats-gl": "^3.6.0",
 		"stats.js": "^0.17.0",
