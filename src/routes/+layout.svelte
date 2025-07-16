@@ -9,7 +9,7 @@
 
     import { onMount } from 'svelte';
 	import { init } from '../lib/webgl/index.js';
-
+	import PasswordGate from './password/PasswordGate.svelte';
     let el;
 
 	onMount(() => {
@@ -35,10 +35,7 @@ Promise.create = function() {
 
 <div class="container">
 
-	<nav class="nav">
-		<!-- <a href="/">Home</a>
-		<a href="/about">About</a> -->
-	</nav>
+	<PasswordGate />
 
 	<canvas bind:this={el}></canvas>
 
