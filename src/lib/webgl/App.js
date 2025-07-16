@@ -57,26 +57,26 @@ export default class App extends Base {
 
         this.sceneComposite.program.setTexture('tDepth', this.furScene.fbo.depthTexture);
 
-        this.stats = new Stats({
-            trackGPU: true,
-            trackHz: true,
-            trackCPT: true,
-            logsPerSecond: 4,
-            graphsPerSecond: 30,
-            samplesLog: 40, 
-            samplesGraph: 10, 
-            precision: 2, 
-            horizontal: true,
-            minimal: false, 
-            mode: 0 
-        });
+        // this.stats = new Stats({
+        //     trackGPU: true,
+        //     trackHz: true,
+        //     trackCPT: true,
+        //     logsPerSecond: 4,
+        //     graphsPerSecond: 30,
+        //     samplesLog: 40, 
+        //     samplesGraph: 10, 
+        //     precision: 2, 
+        //     horizontal: true,
+        //     minimal: false, 
+        //     mode: 0 
+        // });
 
        // this.fluid = new Fluid();
 
         Global.isMobile = window.innerWidth < 768;
         
         // append the stats container to the body of the document
-        document.body.appendChild( this.stats.dom );
+        //document.body.appendChild( this.stats.dom );
 
     
     }
@@ -94,13 +94,13 @@ export default class App extends Base {
 
 	async update( elapsed, delta ) {  
 
-        this.stats.begin();
+        //this.stats.begin();
 
         this.furScene.draw({elapsed, delta});        
 		this.sceneComposite.draw({elapsed, delta});
 
-        this.stats.end();
-        this.stats.update();
+        //this.stats.end();
+        //this.stats.update();
 		
 
 	}
